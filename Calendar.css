@@ -1,0 +1,77 @@
+.calendar1 {
+    width: fit-content;
+    
+    margin: 0 auto;
+    
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header1 {
+    text-align: center;
+    
+    background-color: #f0f0f0;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+    
+   }
+  
+  
+  
+  .calendar-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+     
+    
+  }
+  
+  .day-of-week, .day {
+    width: 14.28%; /* 100% divided by 7 days */
+    padding: 9px;
+    text-align: center;
+    border: 1px solid #eee;
+  }
+  
+  .day-of-week {
+    background-color: #f9f9f9;
+    font-weight: bold;
+   text-align: left;
+  }
+  
+  .empty {
+    background-color: #fff; 
+  }
+  .nav-button {
+    /* Button background color */
+    color: black; /* Button text color */
+    border: none; /* Remove default border */
+    padding: 9px; /* Button padding */
+    cursor: pointer; /* Change cursor on hover */
+    /* Space between button and calendar */
+    
+    font-size: 25px;
+    background-color: white;
+    
+    
+  }
+  .nav-button1,.nav-button2{background-color: #fff;
+  border: none;
+margin: 5px;}
+  
+  
+  
+
+
+
+
+  .tableandbuttons {
+    display: flex;
+  align-items: center;
+  }
